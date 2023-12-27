@@ -29,7 +29,7 @@ const Search = () => {
         </div>
       </form>
 
-      <div style={{ position: "fixed", bottom: "10px", width: "1000px",right: "10px", display: "flex", flexDirection: "column", alignItems: "flex-end" }}>
+      <div style={{ position: "fixed", bottom: "10px", width: "100px",right: "10px", display: "flex", flexDirection: "column", alignItems: "flex-end" }}>
         <button onClick={handleFilterByAuthor} style={{ width: "100px", marginBottom: "20px", marginRight: "150px" }}>Filter</button>
         <input
           type="text"
